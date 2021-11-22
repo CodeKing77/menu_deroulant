@@ -1,0 +1,30 @@
+header
+{
+  width: 95%;
+  margin: auto;
+}
+
+.menu_principal
+{
+	
+	border: 3px dotted black;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.menu_principal > li
+{
+	list-style-type: none;
+	border: 2px solid yellow;
+	height: ;
+	width: 150px;
+	text-transform: capitalize;
+	font-size: 1.5em;
+	text-align: center;
+
+}
+
+
+
+
