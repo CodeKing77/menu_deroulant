@@ -5,7 +5,8 @@ nav
    margin: auto;
 }
 
-.menu_principal
+
+.menu_principal  /*Définition des style du UL principal*/
 {
   /*border:2px solid black ;*/
   display: flex;
@@ -20,7 +21,8 @@ nav
 {
    
    /*display: inline-block;*/
-   border:1px solid yellow ;
+   
+   border:1px solid transparent ;
    text-transform: capitalize;
    
 }
@@ -28,11 +30,12 @@ nav
 
 .menu_principal li a 
 {
-  
+
   text-decoration: none;
   color:gray;
   font-size: 1.3em;
   font-weight:normal;
+
   
 
 }
@@ -48,10 +51,10 @@ nav
 }
 
 
-.sous_menu
+.sous_menu /*Définition du style du sous menu*/
 {
     list-style-type: none;
-    border: 2px dashed green;
+    border: 2px dashed transparent;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
